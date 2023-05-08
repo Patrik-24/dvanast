@@ -1,0 +1,41 @@
+$main-color: aliceblue;
+$second-color: black;
+$nextColor: grey;
+$displeyF: flex;
+$secondtMargin: 10px 420px;
+$fisrtMargin: 1px 175px;
+$displeyF: block;
+$width: 550px;
+
+table, th, td {
+    border: 1px solid $second-color;
+}
+.poradie {
+    text-align: right;
+    background-image: url("./");
+}
+tr {
+    background-color: $main-color;
+}
+tr:nth-child(even) {
+    background-color: rgb(167, 167, 167);
+}
+.film-box {
+    display: $displeyF;
+}
+.film-move {
+    margin-left: 10%;
+    width: $width;
+}
+.hlavicka {
+    background: $nextColor;
+    color: $main-color;
+}
+.podTb {
+    display: $displeyF;
+    position: relative;
+    margin: $secondtMargin;
+}
+.ere {
+    margin: $fisrtMargin;
+}
